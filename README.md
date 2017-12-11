@@ -1,4 +1,4 @@
-#🅱️Replacer
+# 🅱️Replacer
 
 Replaces "b" with 🅱️ in chrome.
 
