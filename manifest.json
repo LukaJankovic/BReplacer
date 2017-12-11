@@ -1,0 +1,20 @@
+{
+  "name": "BReplacer",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Replaces B with the 🅱",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Replace"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
