@@ -16,8 +16,7 @@ function textNodesUnder(node){
       console.log(all)
 
     for (var i=0, max=all.length; i < max; i++) {
-	     all[i].textContent = all[i].textContent.replace(/b/g, "🅱️")
-       all[i].textContent = all[i].textContent.replace(/B/g, "🅱️")
+	     all[i].textContent = all[i].textContent.replace(/((?<=\s|^)[BCDFGHJKLMNPQRSTVWXZbcdfghjklmnpqrstvwxz](?=[A-Za-z]*\s+|\.|)|[BCGVbcgv])/g, "🅱️")
     }
 
 })();
